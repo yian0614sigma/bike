@@ -40,29 +40,13 @@
     </style>
 </head>
 <body>
-
-    <div style="text-align: center; margin: 30px; font-family: 'Arial', sans-serif;">
-        <h2 style="font-size: 36px; color: #4CAF50; margin-bottom: 10px;">
-            Get Your Bike Password Now!
-        </h2>
-        <p style="font-size: 20px; color: #333;">
-            Fill out your info below to unlock a bike and start riding. Enjoy an eco-friendly, convenient way to travel!
-        </p>
-        <p style="font-size: 18px; color: #666;">
-            No waiting in traffic, no parking hassle—just enter your details, get the password, and ride away!
-        </p>
-    </div>
-    
-    
-    
-    
-    <form class="img resized" action="/action_page.php"></form>
-        <label for="fname">name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-        <label for="fname">email:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
-       
-        <a  class="messi" href="passwordgive.html">Submit!</a>
+    <div class="container">
+        <h2>Unlock a Bike</h2>
+        <form action="password.html" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <button type="submit">Submit</button>
         </form>
+    </div>
 </body>
 </html>
